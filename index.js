@@ -8,6 +8,6 @@ function writeCards(names, event) {
   return results;
 }
 
-function countdown() {
+function countdown(n) {
   
 }
