@@ -3,6 +3,6 @@
 function writeCards(names, event) {
   results = [];
   for (let i = 0; i < names.length; i++) {
-    console.log("Thank you, ${name}, for the wonderful ${event} gift!");
+    results.push("Thank you, ${name}, for the wonderful ${event} gift!");
   }
 }
